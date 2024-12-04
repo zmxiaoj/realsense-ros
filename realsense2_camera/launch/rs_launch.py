@@ -80,6 +80,7 @@ configurable_parameters = [{'name': 'camera_name',                  'default': '
                            {'name': 'align_depth.enable',           'default': 'false', 'description': 'enable align depth filter'},
                            {'name': 'colorizer.enable',             'default': 'false', 'description': 'enable colorizer filter'},
                            {'name': 'decimation_filter.enable',     'default': 'false', 'description': 'enable_decimation_filter'},
+                           {'name': 'rotation_filter.enable',     'default': 'false', 'description': 'enable_rotation_filter'},
                            {'name': 'spatial_filter.enable',        'default': 'false', 'description': 'enable_spatial_filter'},
                            {'name': 'temporal_filter.enable',       'default': 'false', 'description': 'enable_temporal_filter'},
                            {'name': 'disparity_filter.enable',      'default': 'false', 'description': 'enable_disparity_filter'},

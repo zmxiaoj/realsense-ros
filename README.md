@@ -634,6 +634,8 @@ The following post processing filters are available:
     - ```temporal_filter``` - filter the depth image temporally.
     - ```hole_filling_filter``` - apply hole-filling filter.
     - ```decimation_filter``` - reduces depth scene complexity.
+    - ```rotation_filter``` - rotates depth and ir frames.
+    
 
 Each of the above filters have it's own parameters, following the naming convention of `<filter_name>.<parameter_name>` including a `<filter_name>.enable` parameter to enable/disable it. 
 
