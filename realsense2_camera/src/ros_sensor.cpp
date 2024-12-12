@@ -53,6 +53,7 @@ RosSensor::RosSensor(rs2::sensor sensor,
     _params(parameters, _logger),
     _update_sensor_func(update_sensor_func),
     _hardware_reset_func(hardware_reset_func),
+    _is_first_frame(true),
     _diagnostics_updater(diagnostics_updater),
     _force_image_default_qos(force_image_default_qos)
 {
